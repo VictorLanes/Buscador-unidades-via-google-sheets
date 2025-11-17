@@ -50,14 +50,3 @@ veolink/
 
 - **Tema**: altere as variáveis CSS no topo do arquivo (`--bg`, `--accent`, etc.).
 - **Fluxo de login corporativo**: substitua o storage local por API própria/SSO conforme necessidade.
-- **Histórico de OS centralizado**: adicione métodos no Apps Script para gravar/leitura das OS (aba `os_logs`) e troque o `localStorage` pelos endpoints.
-
-## Publicação no GitHub Pages
-
-1. Crie um repositório e envie os arquivos (`index.html` e `README.md`).
-2. Nas configurações do repositório, habilite **GitHub Pages** apontando para a branch principal.
-3. Atualize a constante `API_URL` se for usar planilhas diferentes em produção vs. testes.
-
-## Licença
-
-Defina a licença conforme política da empresa (MIT, GPL, etc.) antes de publicar.
